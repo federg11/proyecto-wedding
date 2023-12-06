@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Inter:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.portada {
+    height: 100vh;
+}
+.main__title {
+  font-family: 'Coming Soon';
+  font-size: 60px;
+  color: white;
+  padding-top: 75px;
+}
+.logo-portada h2 {
+  font-family: 'Coming Soon';
+  color: white;
+  font-size: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 400;
+
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+  
+  }
+
+section.audio {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: fixed;
+}
+
+.botonAudio-container {
+    text-align: center;
+}
+.botonAudio {
+    width: 6rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    right: 1rem;
+  
+}
+.hidden {
+    display: none;
+}
+.vertical_shake {
+    animation: vertical-shaking 0.7s infinite;
+}
+@keyframes vertical-shaking {
+
+    0% { transform: translateY(0) }
+  
+    25% { transform: translateY(4px) }
+  
+    50% { transform: translateY(-4px) }
+  
+    75% { transform: translateY(4px) }
+  
+    100% { transform: translateY(0) }
+  
+  }
+  
+.portada {
+    background-image: url('/assets/img/8.jpeg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 70px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0;
+  width: 30px;
+  height: 30px;
+  border-bottom: 4px solid #ffffff;
+  border-right: 4px solid #ffffff;
+  z-index: 9;
+  left: calc(50% - 15px);
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+	-webkit-animation: fade_move_down 2s ease-in-out infinite;
+	-moz-animation:    fade_move_down 2s ease-in-out infinite;
+	animation:         fade_move_down 2s ease-in-out infinite;
+
+}
+
+@-webkit-keyframes fade_move_down {
+
+    0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  
+    50%  { opacity: 1;  }
+  
+    100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+  
+  }
+  
+  @-moz-keyframes fade_move_down {
+  
+    0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  
+    50%  { opacity: 1;  }
+  
+    100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+  
+  }
+  
+  @keyframes fade_move_down {
+  
+    0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  
+    50%  { opacity: 1;  }
+  
+    100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+  
+  }
+
+  section.cuenta-regresiva{
+    text-align: center;
+    background-color: #96b294;
+    height: 180px;
+    /* padding-top: 25px; */
+  }
+  
+  section.cuenta-regresiva h3 {
+    color: white;
+  }
+  
+ul {
+    display: flex;
+    justify-content: center;
+  }
+
+ ul li {
+    list-style: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+li span {
+    display: block;
+    font-size: 3rem;
+    color: white;
+}
+li.separator {
+    margin: 0 10px;
+    font-size: 2rem;
+    line-height: 2;
+    color: white;
+}
+li:first-of-type {
+    margin-right: 3rem;
+}
+
+.headline {
+    text-align: center;
+    padding-top: 20px;
+}
+
+section.ceremonia-fiesta{
+    padding: 70px 0 90px;
+  
+  }
+
+  section.ceremonia-fiesta .columna{
+    text-align: center;
+    padding: 15px;
+  
+  }
+  
+  section.ceremonia-fiesta .columna h4{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  
+  }
+  section.ceremonia-fiesta .columna p{
+    margin-bottom: 25px;
+  }
+
+  section.ceremonia-fiesta .columna img.icon{  
+    width: 150px;
+  }
+  section.ceremonia-fiesta .columna img.anillos{
+
+    width: 150px;
+  }
+
+  .btn{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #96b294;
+    border-radius: 30px;
+    padding: 10px 40px;
+    border: 1px solid #96b294;
+    text-transform: uppercase;
+  
+  }
+  .btn:hover {
+    color: white;
+    background-color: #96b294;
+    border: 1px solid white;
+  }
+
+  .btn-alt {
+    font-family: 'Montserrat', sans-serif;
+    color: #96b294;
+    background-color: white;
+  }
+/*Section Dresscode*/
+  section.dresscode {
+    background-color: #ddc190;
+    text-align: center;
+    padding: 70px 0 70px;
+  }
+  section.dresscode h4 {
+    text-align: center;
+    color: white;
+  }
+  section.dresscode img.icon{
+    width: 150px;
+    margin-bottom: 25px;
+  }
+  section.dresscode p{
+    color: white;
+    font-weight: bold;
+  }
+  
+  /*Section Regalos*/
+
+  section.regalos {
+    text-align: center;
+    background-color: #96b294;
+    padding: 70px 0 70px;
+  }
+
+  section.regalos h4 {
+    text-align: center;
+    color: white;
+  }
+
+  section.regalos img.icon {
+    width: 150px;
+  }
+
+  section.regalos p {
+    color: white;
+    font-weight: bold;
+  }
+
+  /* Medias queries */
+
+
+
+@media (max-width: 760px) {
+
+    .logo-portada img{
+      max-width: 85%;
+      margin-bottom: 0%;
+      margin-top: 20%;
+    }
+    .logo-portada{
+      text-align: center;
+    }
+  
+    section.ceremonia-fiesta .row .columna:nth-child(2){
+      margin-top: 0px;
+    }
+  
+    section.ceremonia-fiesta .row .columna.no-margin-top{
+     margin-top: 0;
+    }
+  
+    section.menu-footer ul li{
+      margin-top: 10px;
+    }
+  
+  }
+
+  section.galeria h4{
+
+    text-align: center;
+  
+    margin-bottom: 60px;
+  
+  }
+  
+  section.galeria .item-galeria{
+  
+    padding: 0 3px;
+  
+    margin-bottom: 5px;
+  
+  }
+  
+  
+  
+  section.galeria .item-galeria a img{
+  
+    transition: all 0.3s ease-out;
+  
+    border-radius: 10px;
+  
+  }
+  
+  section.galeria .item-galeria a:hover img{
+  
+    transform: scale(1.1);
+  
+    position: relative;
+  
+    z-index: 999;
+  
+  }
+
+  /*section CBU*/
+
+  #dialog-content{
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    color: #96b294;
+  }
+
+  #hidden-cbu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  #hidden-cbu ul li {
+    color: black;
+    text-align: center;
+    font-size: 17px;
+  }
+
+  /*Section Asistencia*/
+  section.asistencia {
+    text-align: center;
+    padding: 100px 0 80px;
+  }
+  section.asistencia h4 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  section.asistencia p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  section.asistencia a {
+  }
+
+  /*Section Final*/
+  section.final {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ddc190;
+  }
+  section.final p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+  }
+  
+/*Section footer*/
+section.footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #666;
+}
+
+section.footer p {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+section.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+  
