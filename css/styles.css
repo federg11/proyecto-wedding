@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+  background: black;
+}
 
 section.portada {
     height: 100vh;
@@ -41,7 +44,6 @@ p{
 section.audio {
     margin-top: 20px;
     margin-bottom: 20px;
-    position: fixed;
 }
 
 .botonAudio-container {
@@ -54,8 +56,6 @@ section.audio {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    position: fixed;
-    display: flex;
     right: 1rem;
   
 }
@@ -185,6 +185,7 @@ li:first-of-type {
 
 section.ceremonia-fiesta{
     padding: 70px 0 90px;
+    background-color: white;
   
   }
 
@@ -287,6 +288,7 @@ section.ceremonia-fiesta{
     }
     .logo-portada{
       text-align: center;
+      margin-top: 200px;
     }
   
     section.ceremonia-fiesta .row .columna:nth-child(2){
