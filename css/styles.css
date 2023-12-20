@@ -165,7 +165,7 @@ ul {
 
 li span {
     display: block;
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
 }
 li.separator {
@@ -284,11 +284,11 @@ section.ceremonia-fiesta{
     .logo-portada img{
       max-width: 85%;
       margin-bottom: 0%;
-      margin-top: 20%;
+      margin-top: 5%;
     }
     .logo-portada{
       text-align: center;
-      margin-top: 200px;
+      margin-top: 100px;
     }
   
     section.ceremonia-fiesta .row .columna:nth-child(2){
