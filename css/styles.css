@@ -153,6 +153,7 @@ section.audio {
 ul {
     display: flex;
     justify-content: center;
+    padding-left: 1rem;
   }
 
  ul li {
@@ -175,7 +176,7 @@ li.separator {
     color: white;
 }
 li:first-of-type {
-    margin-right: 3rem;
+    margin-right: 2rem;
 }
 
 .headline {
