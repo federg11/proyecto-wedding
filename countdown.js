@@ -4,7 +4,7 @@ const minutesElement = document.getElementById('minutes');
 const secondsElement = document.getElementById('seconds');
 
 function countDownTimer() {
-    const countDownDate = new Date('02/21/2024 18:00:00').getTime();
+    const countDownDate = new Date('08/20/2024 18:00:00').getTime();
 
     //convertir a milisegundos
     const second = 1000;
